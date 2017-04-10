@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MovieGrid</string>
+    <string name="api_key">ebea8cfca72fdff8d2624ad7bbf78e4c</string>
+    <string name="poster_endpoint">http://image.tmdb.org/t/p/w342</string>
+    <string name="movies">Movies</string>
+    <string name="latest_releases">Latest Releases</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="score">Score</string>
+    <string name="rating">Rating</string>
+    <string name="release_date">Release Date</string>
+    <string name="first">First</string>
+    <string name="prev">Prev</string>
+    <string name="last">Last</string>
+    <string name="my_account">My Account</string>
+</resources>

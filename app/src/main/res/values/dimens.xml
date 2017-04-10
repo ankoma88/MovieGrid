@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nav_button_width">48dp</dimen>
+    <dimen name="nav_button_height">22dp</dimen>
+    <dimen name="nav_button_text_size">14sp</dimen>
+    <dimen name="movie_property_text_size">18sp</dimen>
+    <dimen name="movie_title_text_size">28sp</dimen>
+    <dimen name="header_text_size">16sp</dimen>
+    <dimen name="upper_nav_button_text_size">18sp</dimen>
+</resources>

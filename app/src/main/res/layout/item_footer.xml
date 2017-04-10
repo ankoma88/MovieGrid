@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorIcons"
+    android:orientation="horizontal"
+    style="@android:style/ButtonBar"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="96dp">
+
+    <LinearLayout
+        android:id="@+id/llFirst"
+        android:gravity="center"
+        android:background="@drawable/nav_button"
+        android:layout_width="@dimen/nav_button_width"
+        android:layout_height="@dimen/nav_button_height">
+
+    <TextView
+        android:id="@+id/tvFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/nav_button_text_size"
+        android:textColor="@color/colorButtons"
+        android:text="@string/first"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llPrev"
+        android:gravity="center"
+        android:background="@drawable/nav_button"
+        android:layout_width="@dimen/nav_button_width"
+        android:layout_height="@dimen/nav_button_height">
+
+        <TextView
+            android:id="@+id/tvPrev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/nav_button_text_size"
+            android:textColor="@color/colorSecondaryText"
+            android:text="@string/prev"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llCurrentPage"
+        android:gravity="center"
+        android:background="@drawable/nav_button"
+        android:layout_width="@dimen/nav_button_width"
+        android:layout_height="@dimen/nav_button_height">
+
+        <TextView
+            android:id="@+id/tvCurrentPage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/nav_button_text_size"
+            android:textStyle="bold"
+            android:textColor="@color/colorSecondaryText"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llNext"
+        android:gravity="center"
+        android:background="@drawable/nav_button"
+        android:layout_width="@dimen/nav_button_width"
+        android:layout_height="@dimen/nav_button_height">
+
+        <TextView
+            android:id="@+id/tvNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/nav_button_text_size"
+            android:textColor="@color/colorSecondaryText"
+            android:text="@string/next"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llLast"
+        android:gravity="center"
+        android:background="@drawable/nav_button"
+        android:layout_width="@dimen/nav_button_width"
+        android:layout_height="@dimen/nav_button_height">
+
+        <TextView
+            android:id="@+id/tvLast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/nav_button_text_size"
+            android:textColor="@color/colorButtons"
+            android:text="@string/last"/>
+    </LinearLayout>
+
+
+</LinearLayout>
